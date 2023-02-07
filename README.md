@@ -9,3 +9,6 @@
  - when clicked outside of Modal, it should disappear.
  - every row should have 3 items.
  - all data should store in the localStorage.
+
+
+####  https://lusine-sargs-yan.github.io/todo-list-with-card/
