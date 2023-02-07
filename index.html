@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+    <header class="header">
+        <main>
+            <div class="intro-content">
+                <img src="./assets/logo.png" alt="LOGO" class="intro-image"/>
+               <div class="intro-title">
+                   <h1 class="intro-title">CreativeImages</h1>
+               </div>
+            </div>
+        </main>
+    </header>
+    <section class="todo">
+        <div class="container">
+            <div class="todo__content">
+                <div class="todo__list">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="add" class="add__modal-close" data-modal-id="1">
+        <div class="add__wrapper" data-modal-id="1">
+            <div class="add__content">
+                <form id="addForm" class="add__form" >
+                    <div class="add__item">
+                        <label for="" class="add__item-title">Name</label>
+                        <input type="text" class="add__item-inner add-input"/>
+                    </div>
+                    <div class="add__item">
+                        <label for="" class="add__item-title">Description</label>
+                        <textarea name="" id="" cols="20" rows="10" class="add__item-inner"></textarea>
+                    </div>
+                    <div class="add__item add-item-bottom">
+                        <div class="upload">
+                            <input type="file" class="upload__input"/>
+                            <button class="upload-btn">Upload Image</button>
+                            <img src=""  class="upload__image"/>
+                        </div>
+                        <button type="submit" class="add__item-submit" >Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>

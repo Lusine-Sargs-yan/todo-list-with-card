@@ -1,0 +1,37 @@
+@import 'header.css';
+@import 'todo.css';
+@import 'modal.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* width screen: 1260px; total950px*/
+  width: 1200px;
+  /*max-width: 100%;*/
+  margin: 0 auto;
+}
+
+.add-btn {
+  width: 100px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 80px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(#4FDD88, #8ac4a2);
+  border: 5px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

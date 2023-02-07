@@ -1,0 +1,107 @@
+.todo {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 52px 0;
+}
+.todo__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todo__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.todo__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30%;
+  height: 463px;
+  margin: 10px 15px;
+  border-radius: 43px;
+  box-shadow: 0px 13px 12px rgba(0, 0, 0, 0.15);
+  padding: 0px 0px;
+  /*padding: 10px 20px;*/
+  align-self: normal;
+}
+.todo__title {
+  margin: 20px 0;
+  /*padding: 35px  35px 0 35px;*/
+  padding: 0 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000000;
+}
+.todo__description {
+  margin: 10px 0;
+  padding: 0 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  color: #000000;
+}
+.todo__close {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  color: #ccc;
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 13px 12px rgba(0, 0, 0, 0.18);
+}
+.todo__img {
+  max-width: 361px;
+  /*max-width: 407px;*/
+  /*min-height: 208px;*/
+  /*height: 208px;*/
+  border-top-left-radius: 43px;
+  border-top-right-radius: 43px;
+}
+.todo__edit {
+  margin-top: auto;
+  margin-bottom: 23px;
+  margin-left: 23px;
+  display: inline-block;
+  background: #4FDD88;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.todo__edit:hover {
+  background: #1d673b;
+}
+.todo__add-card {
+  box-shadow: 0px 13px 12px rgba(0, 0, 0, 0.15);
+  /*margin: 0 auto;*/
+  margin: 10px 15px;
+  background: linear-gradient(#4FDD88, #8ac4a2);
+  border-radius: 43px;
+  pointer-events: auto;
+  background-clip: padding-box;
+  border: none;
+  outline: 0;
+  padding: 180px 130px;
+}
+
+/*# sourceMappingURL=todo.css.map */
