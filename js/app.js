@@ -101,9 +101,13 @@ function render() {
 //Handle functions
 function openModal() {
     $modal.classList.replace('add__modal-close', 'add__modal-open');
+    document.body.style.overflow = 'hidden';
+    const scrollY = document.body.style.top;
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
 }
 function closeModal() {
     $modal.classList.replace('add__modal-open', 'add__modal-close');
+    document.body.style.overflow = 'initial';
 }
 function clickOutsideToCloseModal(event) {
     const { modalId } =  event.target.dataset;
@@ -164,6 +168,7 @@ $form.addEventListener('submit', function (event){
     render();
     closeModal();
     saveState('TODO_DATA', data);
+    reset($inputValue, $textValue, $image);
 });
 
 $list.addEventListener('click', handleActions);

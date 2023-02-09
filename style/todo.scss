@@ -22,18 +22,17 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 30%;
+    //width: 30%;
+    max-width: 360px;
     height: 463px;
     margin: 10px 15px;
     border-radius: 43px;
     box-shadow: 0px 13px 12px rgba(0, 0, 0, 0.15);
     padding: 0px 0px;
-    /*padding: 10px 20px;*/
     align-self: normal;
   }
   &__title {
     margin: 20px 0;
-    /*padding: 35px  35px 0 35px;*/
     padding: 0 25px;
     font-style: normal;
     font-weight: bold;
@@ -70,9 +69,6 @@
   }
   &__img {
     max-width: 361px;
-    /*max-width: 407px;*/
-    /*min-height: 208px;*/
-    /*height: 208px;*/
     border-top-left-radius: 43px;
     border-top-right-radius: 43px;
   }
@@ -94,7 +90,6 @@
   }
   &__add-card {
     box-shadow: 0px 13px 12px rgba(0, 0, 0, 0.15);
-    /*margin: 0 auto;*/
     margin: 10px 15px;
     background: linear-gradient(#4FDD88, #8ac4a2);
     border-radius: 43px;
