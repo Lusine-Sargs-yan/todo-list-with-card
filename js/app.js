@@ -31,7 +31,7 @@ render();
 
 //add item
 function addItem() {
-    if($inputValue.value === '' || $textValue.value === '' || $image.src === '') {
+    if($inputValue.value === '' || $textValue.value === '' || $image.getAttribute('src') === '') {
         alert('Empty field, please, you should fill in.');
     } else {
         if(editItemId >= 0) {
@@ -127,6 +127,8 @@ function handleUpload(event) {
         fileReader.addEventListener('load', loadFile);
         fileReader.readAsDataURL(file);
     }
+
+    event.target.value = '';
 }
 function loadFile(event) {
     $image.src = event.target.result;
